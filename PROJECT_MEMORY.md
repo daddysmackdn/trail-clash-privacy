@@ -15,3 +15,11 @@
 - Important files modified: `word-duel/index.html`, `word-duel/terms/index.html`, `word-duel/community/index.html`, `word-duel/delete-account/index.html`, and `PROJECT_MEMORY.md`.
 - Tests or validation performed: All Word Duel HTML pages pass `html-validate`; relative policy/deletion links and mobile viewport metadata were checked, and the repositories contain no credentials or private identifiers in these pages.
 - Known issues or follow-up work: Publish the commit through GitHub Pages, verify every public URL from Android and iOS, and complete the external deletion rehearsal and store privacy declarations before public release.
+
+## 2026-09-16 - Word Duel age-aware advertising disclosure
+
+- What was changed: Documented the app's 13-17 under-age advertising treatment, confirmed-adult treatment, ad-free unknown/under-13 path, age-band choice processing, and disabled publisher first-party advertising identifier.
+- Why it was changed: The production client now distinguishes teen and adult ad requests, so the public policy must describe the behavior used on both Android and iOS.
+- Important files modified: `word-duel/index.html` and `PROJECT_MEMORY.md`.
+- Tests or validation performed: All Word Duel HTML pages passed `html-validate`; the privacy, terms, community, and deletion URLs each returned HTTP 200 before publication of this revision.
+- Known issues or follow-up work: Reverify the disclosure against the final signed SDK privacy reports and completed Google Play/App Store privacy forms before public submission.
