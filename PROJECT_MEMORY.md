@@ -7,3 +7,11 @@
 - Important files modified: `word-duel/index.html`, `word-duel/terms/index.html`, and `PROJECT_MEMORY.md`.
 - Tests or validation performed: Reviewed the page structure, relative links, mobile viewport metadata, and public GitHub Pages path before publishing.
 - Known issues or follow-up work: The game still needs an accessible in-app reporting flow and a reviewed moderation process before public online play.
+
+## 2026-09-16 - Word Duel launch policies and deletion guidance completed
+
+- What was changed: Updated the Word Duel privacy policy and Terms to match the lean 1.0 feature set, added public Community Guidelines and account-deletion instructions, documented optional Analytics and Diagnostics, and published explicit match, report, Analytics, and Diagnostics retention periods.
+- Why it was changed: The Android and iOS clients now include policy-gated online play, reporting/blocking, account deletion, opt-in analytics, diagnostics, and ads, so public disclosures and support instructions must match the implemented data flow.
+- Important files modified: `word-duel/index.html`, `word-duel/terms/index.html`, `word-duel/community/index.html`, `word-duel/delete-account/index.html`, and `PROJECT_MEMORY.md`.
+- Tests or validation performed: All Word Duel HTML pages pass `html-validate`; relative policy/deletion links and mobile viewport metadata were checked, and the repositories contain no credentials or private identifiers in these pages.
+- Known issues or follow-up work: Publish the commit through GitHub Pages, verify every public URL from Android and iOS, and complete the external deletion rehearsal and store privacy declarations before public release.
