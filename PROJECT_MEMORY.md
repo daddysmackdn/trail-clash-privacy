@@ -23,3 +23,11 @@
 - Important files modified: `word-duel/index.html` and `PROJECT_MEMORY.md`.
 - Tests or validation performed: All Word Duel HTML pages passed `html-validate`; the privacy, terms, community, and deletion URLs each returned HTTP 200 before publication of this revision.
 - Known issues or follow-up work: Reverify the disclosure against the final signed SDK privacy reports and completed Google Play/App Store privacy forms before public submission.
+
+## 2026-09-16 - Word Duel advertising treatment terminology corrected
+
+- What was changed: Replaced the ambiguous "adult treatment" wording with the exact runtime behavior: 13-17 players receive Google's teen age-restricted treatment, while confirmed 18+ requests carry no age-restriction signal.
+- Why it was changed: The public policy must describe the Google Mobile Ads request configuration precisely and must not imply that the SDK exposes a distinct adult-treatment category.
+- Important files modified: `word-duel/index.html` and `PROJECT_MEMORY.md`.
+- Tests or validation performed: Checked the disclosure against the client request configuration and queued all Word Duel HTML pages for validation before publication.
+- Known issues or follow-up work: Reconcile the policy with the final signed SDK privacy reports and completed Google Play/App Store privacy forms before public submission.
